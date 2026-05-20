@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarsTrans Leipzig — Fahrzeugüberführung in Deutschland</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #1a1a1a; color: #ffffff; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .card { max-width: 450px; padding: 30px; background: #2a2a2a; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); margin: 20px; text-align: center; position: relative; }
+        
+        /* Переключатель языков */
+        .lang-switcher { position: absolute; top: 15px; right: 15px; font-size: 14px; }
+        .lang-switcher a { color: #cccccc; text-decoration: none; margin-left: 8px; font-weight: bold; }
+        .lang-switcher a.active { color: #ffcc00; border-bottom: 2px solid #ffcc00; }
+        
+        h1 { color: #ffcc00; margin-top: 20px; margin-bottom: 10px; font-size: 28px; }
+        h2 { color: #ffcc00; font-size: 20px; margin-top: 25px; text-align: left; border-bottom: 1px solid #444; padding-bottom: 5px; }
+        p { font-size: 15px; color: #cccccc; line-height: 1.6; text-align: left; margin: 10px 0; }
+        .center-p { text-align: center; font-weight: bold; }
+        ul { text-align: left; padding-left: 20px; color: #cccccc; font-size: 15px; line-height: 1.6; }
+        
+        .btn { display: inline-block; background: #25d366; color: #fff; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 25px; font-size: 18px; transition: 0.3s; width: 80%; }
+        .btn:hover { background: #128c7e; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Языковая панель -->
+        <div class="lang-switcher">
+            <a href="#" class="active">DE</a>
+            <a href="/ua/">UA</a>
+            <a href="/en/">EN</a>
+            <a href="/ru/">RU</a>
+        </div>
+
+        <h1>CarsTrans Leipzig</h1>
+        <p class="center-p">📍 Leipzig, Deutschland</p>
+        <p>Professionelle und zuverlässige Fahrzeugüberführung auf eigener Achse deutschlandweit und EU-weit. Vom Autohaus oder Privatverkäufer direkt vor Ihre Haustür.</p>
+        
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li><strong>Überführung "Sorglos-Paket":</strong> Abholung, Dokumentenprüfung vor Ort und sichere Lieferung.</li>
+            <li><strong>Autohaus-Transfer:</strong> Komplette Abwicklung und Kontrolle aller Export- oder Standarddokumente (Teil 1, Teil 2, TÜV).</li>
+            <li>Schnelle Planung und termingerechte Lieferung.</li>
+        </ul>
+
+        <h2>Warum wir?</h2>
+        <p><strong>Volle Transparenz:</strong> Wir bleiben während der gesamten Fahrt mit Ihnen in Kontakt. Foto- und Videobericht bei der Fahrzeugübernahme und an Schlüsselpunkten der Route.</p>
+        <p><strong>Sicherheit:</strong> Vorsichtige Fahrweise, strikte Einhaltung der Verkehrsregeln und sorgsamer Umgang mit Ihrem Eigentum.</p>
+
+        
+        <a href="https://wa.me/+4915141481773" class="btn" target="_blank">📲 WhatsApp Kontakt</a>
+    </div>
+
+</body>
+</html>
