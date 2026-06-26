@@ -94,6 +94,16 @@
             gap: 50px;
         }
         .hero-copy { align-self: center; padding-top: 86px; }
+        .hero-logo {
+            width: min(390px, 100%);
+            margin: 0 0 28px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,.10);
+            border-radius: 22px;
+            background: #09111c;
+            box-shadow: 0 22px 58px rgba(0,0,0,.26);
+        }
+        .hero-logo img { width: 100%; }
         .hero .eyebrow { color: #9dbaff; }
         h1 { margin: 0; max-width: 740px; font-size: clamp(48px, 6vw, 78px); line-height: 1.03; letter-spacing: -.045em; }
         h1 em { color: var(--orange); font-style: normal; }
@@ -228,6 +238,7 @@
             .nav-cta { padding: 9px 13px; font-size: 12px; }
             .hero, .hero-grid { min-height: 720px; }
             .hero-copy { padding: 110px 0 76px; }
+            .hero-logo { width: min(310px, 100%); margin-bottom: 22px; border-radius: 18px; }
             h1 { font-size: 46px; }
             .hero-lead { margin-top: 20px; font-size: 17px; }
             .hero-portrait { display: none; }
@@ -260,6 +271,9 @@
         <section class="hero">
             <div class="hero-grid wrap">
                 <div class="hero-copy">
+                    <div class="hero-logo">
+                        <img src="assets/carstrans-logo.jpg" alt="carsTrans.de Logo" width="960" height="524">
+                    </div>
                     <p class="eyebrow">Für Fahrzeugüberführer in Deutschland</p>
                     <h1>carsTrans – <em>dein</em> persönlicher Disponent.</h1>
                     <p class="hero-lead">Du sagst uns, wann und wohin du fahren möchtest. Wir unterstützen dich dabei, passende Aufträge nach deinen Wünschen zu finden und deinen Arbeitsalltag einfacher zu organisieren.</p>
